@@ -1,4 +1,4 @@
-workspace(name = 'CppProjectTemplate')
+workspace(name = 'dhi')
 
 bind(
   name = 'gtest',

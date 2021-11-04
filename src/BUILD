@@ -4,9 +4,10 @@ cc_binary(
 	name = "main",
 	srcs = ["main.cc"],
 	deps = [
-	#	"child/name",
-		"//src/lib:constants",
-	],
+	#"child/name",
+#	    "//src/lib:constants",
+            "//src/lib/dio:dio",
+        ],
 )
 
 #cc_library(
