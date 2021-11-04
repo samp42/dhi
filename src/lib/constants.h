@@ -8,7 +8,7 @@ namespace dhi {
 // GPIO
 // I2C
 static constexpr Port kI2CSDA(2, 3);
-static constexpr Port kI2CSCL(3, 5;
+static constexpr Port kI2CSCL(3, 5);
 
 // SPI
 // mixup in pcb between MISO and SCLK

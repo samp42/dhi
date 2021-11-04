@@ -6,10 +6,10 @@
 namespace dhi {
 
 struct Port {
-    int8_t BCM;
-    int8_t BOARD;
+    const int8_t BCM;
+    const int8_t BOARD;
 
-    Port(int8_t bcm, int8_t gpio) : BCM(bcm), GPIO(gpio) {}
+    Port(int8_t bcm, int8_t board) : BCM(bcm), BOARD(board) {}
 
 };
 
