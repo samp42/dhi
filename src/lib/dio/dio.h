@@ -1,5 +1,5 @@
-#include <wiringPi.h>
-//#include "constants.h"
+#include "third_party/WiringPi/wiringPi/wiringPi.h"
+#include "../constants.h"
 
 namespace dhi {
 namespace dio {

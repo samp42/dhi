@@ -8,7 +8,7 @@ cc_library(
 	name = "constants",
 	hdrs = glob(["constants.h"]),
 	deps = [
-        ":port",
+            ":port",
 	],
     visibility = ["//visibility:public"],
 )
