@@ -4,9 +4,6 @@
 
 // test init
 GTEST_TEST( DIO_TEST, Test_Init ) {
-	EXPECT_EQ(1,1);
-	ASSERT_EQ(1,1);
-	std::cout << "Just to be sure this is executed..." << std::endl;
 };
 
 // test write
