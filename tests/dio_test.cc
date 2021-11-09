@@ -1,9 +1,12 @@
 #include "gtest/gtest.h"
 #include "src/lib/dio/dio.h"
 
+using namespace dhi;
 
 // test init
 GTEST_TEST( DIO_TEST, Test_Init ) {
+    ASSERT_NO_THROW(dio::Init(kDIO0.BOARD, INPUT));
+    ASSERT_NO_THROW(dio::Init(kDIO1.BOARD, OUTPUT));
 };
 
 // test write

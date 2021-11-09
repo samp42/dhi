@@ -5,6 +5,27 @@
 
 namespace dhi {
 
+
+// PIN MODES
+//
+// from wiringPi.h
+//
+// INPUT = 0
+// OUTPUT = 1
+// PWM_OUTPUT = 2
+// GPIO_CLOCK = 3
+// SOFT_PWM_OUTPUT = 4
+// SOFT_TONE_OUTPUT = 5
+// PWM_TONE_OUTPUT = 6
+
+
+// LOGICAL LEVELS
+//
+// from wiringPi.h
+//
+// LOW = 0
+// HIGH = 1
+
 // GPIO
 // I2C
 static const Port kI2CSDA(2, 3);
